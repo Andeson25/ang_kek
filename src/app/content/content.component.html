@@ -1,0 +1,26 @@
+<input type="text" name="searchStr" [(ngModel)]="searchStr">
+<div class="top">
+  <h3>Name</h3>
+  <h3>Content</h3>
+</div>
+<hr>
+<div class="container">
+  <aside>
+    <div>
+      <p>ASIDE TEXT HERE </p>
+    </div>
+  </aside>
+  <section>
+    <app-card *ngFor="let c of cards | search:searchStr " [card]="c"></app-card>
+  </section>
+</div>
+<div class="container">
+  <aside>
+    <div>
+      <p>ASIDE TEXT HERE </p>
+    </div>
+  </aside>
+  <section>
+    <app-card *ngFor="let c of cards | search:searchStr " [card]="c"></app-card>
+  </section>
+</div>

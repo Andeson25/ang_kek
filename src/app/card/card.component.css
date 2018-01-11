@@ -1,0 +1,30 @@
+
+p{
+margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  padding:0 50px;
+  width:150px
+}
+.left .top {
+  font-weight: bold;
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+.right{
+  word-wrap: break-word;
+}
+
+hr {
+  margin-top: 15px;
+  height: 3px ;
+  border: none;
+  background-color: #b7b7b7;
+}

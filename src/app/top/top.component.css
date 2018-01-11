@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Didact+Gothic");
+
+.line-first {
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  background-color: #787a7d;
+  width: 100vw;
+  height: 20px;
+}
+.line-second {
+  background-color: #aaaeb1;
+  width: 100vw;
+  height: 15px;
+}
+.label {
+  font-size: 150%;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: "Didact Gothic", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
